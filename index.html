@@ -8,221 +8,164 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800;900&display=swap" rel="stylesheet">
 </head>
 
-<!--
-=====================================================================
- E-MAIL BLACK NOVEMBRE – ALLIANCE FRANÇAISE RIO DE JANEIRO
- Versão compatível com as regras de importação do RD Station:
- sem JavaScript, sem classes CSS (tudo inline) e sem media queries.
- As colunas empilham sozinhas no celular (layout "híbrido").
-=====================================================================
- COMO EDITAR
- - Ctrl/Cmd + F por "EDITAR": marca tudo o que muda de uma campanha para outra.
- - Cada bloco tem comentário de INÍCIO e FIM. Para tirar um bloco, apague entre os dois.
-
- PALETA
-   Fundo externo ... #0d1124      Fundo do e-mail ... #151a33
-   Fundo dos cards . #1d2547      Borda dos cards ... #2f3b6e
-   Vermelho AF ..... #e1000f      Azul ............. #2670c0
-   Texto principal . #ffffff      Texto secundário .. #b9c0dd
-   WhatsApp ........ #1f9d55
-
- LINKS PARA TROCAR
-   1) Landing Express ........ https://EDITAR-LINK-LANDING-EXPRESS
-   2) Landing Preparatório ... https://EDITAR-LINK-LANDING-PREPARATORIO
-   3) WhatsApp ............... https://wa.me/55EDITARNUMERO (DDD + número, só dígitos)
-
- IMAGENS (opcional)
-   Cada card tem um espaço de imagem comentado. Para ativar: apague o "<!--" e o "-->"
-   em volta do <img> e troque a URL pelo endereço público da imagem.
-=====================================================================
--->
-
 <body style="margin:0;padding:0;background:#0d1124;">
 
-<!-- EDITAR: pré-cabeçalho (texto que aparece ao lado do assunto na caixa de entrada) -->
+<!-- Pré-cabeçalho -->
 <div style="display:none;max-height:0;overflow:hidden;opacity:0;color:#0d1124;font-size:1px;line-height:1px;">
   Até R$ 900 de desconto no Express e até R$ 260 no Preparatório e Conversação.
 </div>
 
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#0d1124" style="background:#0d1124;">
-<tr><td align="center" style="padding:24px 12px;">
+<tr><td align="center" style="padding:30px 12px;">
 
-  <table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0" bgcolor="#151a33" style="width:100%;max-width:600px;background:#151a33;border-radius:14px;overflow:hidden;">
+  <!-- Wrapper centralizado (600px) -->
+  <table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0" bgcolor="#151a33" style="width:100%;max-width:600px;background:#151a33;border-radius:14px;overflow:hidden;text-align:center;">
 
-    <!-- ================= HEADER · INÍCIO ================= -->
+    <!-- ================= HEADER (Sem logo, totalmente centralizado) ================= -->
     <tr>
-      <td align="left" style="padding:30px 24px 22px 24px;">
-
-        <!-- Logo (em HTML). EDITAR: pode trocar por <img src="URL-DO-LOGO" width="180" alt="Alliance Française Rio de Janeiro" style="display:block;border:0;"> -->
-        <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="border:2px solid #ffffff;">
-          <tr>
-            <td bgcolor="#e1000f" style="background:#e1000f;padding:5px 9px;font-family:Georgia,'Times New Roman',serif;font-style:italic;font-size:22px;line-height:22px;color:#ffffff;">af</td>
-            <td bgcolor="#ffffff" style="background:#ffffff;padding:4px 10px;font-family:Georgia,'Times New Roman',serif;color:#151a33;">
-              <span style="font-size:13px;line-height:15px;display:block;">AllianceFrançaise</span>
-              <span style="font-size:9px;line-height:11px;font-style:italic;display:block;">Rio de Janeiro</span>
-            </td>
-          </tr>
-        </table>
-
-        <!-- EDITAR: título e subtítulo -->
-        <div style="font-family:'Montserrat',Arial,Helvetica,sans-serif;font-size:38px;line-height:44px;color:#ffffff;padding-top:26px;">
+      <td align="center" style="padding:40px 30px 25px 30px;">
+        <div style="font-family:'Montserrat',Arial,Helvetica,sans-serif;font-size:40px;line-height:46px;color:#ffffff;letter-spacing:1px;">
           <span style="font-weight:800;">Black</span> <span style="font-weight:400;">Novembre</span>
         </div>
-        <div style="font-family:'Montserrat',Arial,Helvetica,sans-serif;font-weight:400;font-size:15px;line-height:23px;color:#b9c0dd;padding-top:8px;">
-          Descontos especiais para começar o ano falando francês.
+        <div style="font-family:'Montserrat',Arial,Helvetica,sans-serif;font-weight:400;font-size:16px;line-height:24px;color:#b9c0dd;padding-top:10px;max-width:480px;margin:0 auto;">
+          Garanta sua vaga nos cursos intensivos, de conversação e preparatórios de férias com condições imperdíveis até 30/11.
         </div>
       </td>
     </tr>
-    <!-- Faixa fina vermelha (referência às fitas da identidade) -->
+
+    <!-- Faixa vermelha de destaque -->
     <tr>
-      <td bgcolor="#e1000f" align="center" style="background:#e1000f;padding:6px 0;overflow:hidden;white-space:nowrap;font-family:'Montserrat',Arial,Helvetica,sans-serif;font-weight:900;font-size:10px;line-height:12px;letter-spacing:1.5px;color:#151a33;">
-        BLACK NOVEMBRE &nbsp; BLACK NOVEMBRE &nbsp; BLACK NOVEMBRE &nbsp; BLACK NOVEMBRE &nbsp; BLACK NOVEMBRE &nbsp; BLACK NOVEMBRE
+      <td bgcolor="#e1000f" align="center" style="background:#e1000f;padding:7px 0;overflow:hidden;white-space:nowrap;font-family:'Montserrat',Arial,Helvetica,sans-serif;font-weight:900;font-size:11px;line-height:13px;letter-spacing:2px;color:#151a33;">
+        BLACK NOVEMBRE &nbsp; • &nbsp; BLACK NOVEMBRE &nbsp; • &nbsp; BLACK NOVEMBRE &nbsp; • &nbsp; BLACK NOVEMBRE
       </td>
     </tr>
     <!-- ================= HEADER · FIM ================= -->
 
 
-    <!-- ================= CARDS · INÍCIO =================
-         Duas colunas no computador; no celular empilham sozinhas. -->
+    <!-- ================= CARDS DE CURSOS ================= -->
     <tr>
-      <td align="center" style="padding:24px 17px 0 17px;font-size:0;line-height:0;text-align:center;">
+      <td align="center" style="padding:30px 20px 10px 20px;">
 
-        <!--[if mso]><table role="presentation" width="566" cellpadding="0" cellspacing="0" border="0"><tr><td width="283" valign="top"><![endif]-->
+        <!--[if mso]><table role="presentation" width="560" cellpadding="0" cellspacing="0" border="0"><tr><td width="270" valign="top"><![endif]-->
 
-        <!-- ============ CARD EXPRESS · INÍCIO ============ -->
-        <div style="display:inline-block;width:100%;max-width:283px;vertical-align:top;text-align:left;">
+        <!-- CARD 1: EXPRESS -->
+        <div style="display:inline-block;width:100%;max-width:270px;vertical-align:top;text-align:left;margin-bottom:20px;">
           <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
-          <tr><td style="padding:0 7px 14px 7px;">
-            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#1d2547" style="background:#1d2547;border:1px solid #2f3b6e;border-radius:12px;overflow:hidden;">
+            <tr><td style="padding:0 6px;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#1d2547" style="background:#1d2547;border:1px solid #2f3b6e;border-radius:12px;overflow:hidden;">
+                <tr><td style="padding:24px 20px;">
 
-              <!-- EDITAR (opcional): imagem do card. Proporção sugerida 16:9, exportar com 1080 x 608 px
-              <tr><td>
-                <a href="https://EDITAR-LINK-LANDING-EXPRESS" target="_blank">
-                  <img src="https://EDITAR-URL-DA-IMAGEM-EXPRESS.jpg" width="100%" style="display:block;border:0;width:100%;height:auto;" alt="Turmas Express de francês">
-                </a>
-              </td></tr>
-              -->
+                  <!-- Tag -->
+                  <table role="presentation" cellpadding="0" cellspacing="0" border="0">
+                    <tr><td bgcolor="#e1000f" style="background:#e1000f;border-radius:20px;padding:4px 12px;font-family:'Montserrat',Arial,Helvetica,sans-serif;font-weight:800;font-size:10px;line-height:13px;letter-spacing:.8px;color:#ffffff;text-transform:uppercase;">Intensivo</td></tr>
+                  </table>
 
-              <tr><td style="padding:20px 18px 22px 18px;">
+                  <!-- Título -->
+                  <div style="font-family:'Montserrat',Arial,Helvetica,sans-serif;font-weight:800;font-size:18px;line-height:24px;color:#ffffff;padding-top:14px;">Express d'été</div>
+                  <div style="font-family:'Montserrat',Arial,Helvetica,sans-serif;font-weight:400;font-size:13px;line-height:18px;color:#b9c0dd;padding-top:2px;">Dezembro ou Janeiro</div>
 
-                <!-- EDITAR: etiqueta -->
-                <table role="presentation" cellpadding="0" cellspacing="0" border="0">
-                  <tr><td bgcolor="#e1000f" style="background:#e1000f;border-radius:20px;padding:5px 12px;font-family:'Montserrat',Arial,Helvetica,sans-serif;font-weight:800;font-size:11px;line-height:13px;letter-spacing:.8px;color:#ffffff;text-transform:uppercase;">Express</td></tr>
-                </table>
+                  <!-- Valor de desconto -->
+                  <div style="font-family:'Montserrat',Arial,Helvetica,sans-serif;font-weight:600;font-size:12px;line-height:15px;color:#ffffff;padding-top:18px;text-transform:uppercase;">Descontos de até</div>
+                  <div style="font-family:'Montserrat',Arial,Helvetica,sans-serif;font-weight:900;font-size:32px;line-height:36px;color:#ffffff;padding-top:2px;">R$ 900</div>
 
-                <!-- EDITAR: nome do curso e período -->
-                <div style="font-family:'Montserrat',Arial,Helvetica,sans-serif;font-weight:800;font-size:17px;line-height:23px;color:#ffffff;padding-top:14px;">Francês intensivo para iniciantes</div>
-                <div style="font-family:'Montserrat',Arial,Helvetica,sans-serif;font-weight:400;font-size:13px;line-height:19px;color:#b9c0dd;padding-top:2px;">Dezembro | Janeiro</div>
+                  <!-- Descrição -->
+                  <div style="font-family:'Montserrat',Arial,Helvetica,sans-serif;font-weight:400;font-size:13px;line-height:20px;color:#b9c0dd;padding-top:12px;min-height:60px;">
+                    Do zero ao nível A2 em apenas 1 mês de imersão total. Acelere seu aprendizado nas férias!
+                  </div>
 
-                <!-- EDITAR: desconto -->
-                <div style="font-family:'Montserrat',Arial,Helvetica,sans-serif;font-weight:600;font-size:13px;line-height:16px;color:#ffffff;padding-top:16px;">Descontos de até</div>
-                <div style="font-family:'Montserrat',Arial,Helvetica,sans-serif;font-weight:900;font-size:34px;line-height:38px;color:#ffffff;">R$ 900</div>
+                  <!-- Botão -->
+                  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top:22px;">
+                    <tr><td align="center" bgcolor="#e1000f" style="background:#e1000f;border-radius:24px;">
+                      <a href="[EDITAR-LINK-LANDING-EXPRESS]" target="_blank" style="display:block;padding:12px 10px;font-family:'Montserrat',Arial,Helvetica,sans-serif;font-weight:800;font-size:13px;line-height:16px;color:#ffffff;text-decoration:none;">Quero o Express</a>
+                    </td></tr>
+                  </table>
 
-                <!-- EDITAR: descrição (colar o texto da landing) -->
-                <div style="font-family:'Montserrat',Arial,Helvetica,sans-serif;font-weight:400;font-size:14px;line-height:21px;color:#b9c0dd;padding-top:10px;">
-                  Em 1 mês de curso intensivo, você sai do zero e chega ao nível A2.
-                </div>
-
-                <!-- EDITAR: botão + link da landing -->
-                <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top:20px;">
-                  <tr><td align="center" bgcolor="#e1000f" style="background:#e1000f;border-radius:24px;">
-                    <a href="https://EDITAR-LINK-LANDING-EXPRESS" target="_blank" style="display:block;padding:13px 10px;font-family:'Montserrat',Arial,Helvetica,sans-serif;font-weight:800;font-size:14px;line-height:17px;color:#ffffff;text-decoration:none;">Quero meu desconto</a>
-                  </td></tr>
-                </table>
-              </td></tr>
-            </table>
-          </td></tr>
+                </td></tr>
+              </table>
+            </td></tr>
           </table>
         </div>
-        <!-- ============ CARD EXPRESS · FIM ============ -->
+        <!-- FIM CARD EXPRESS -->
 
-        <!--[if mso]></td><td width="283" valign="top"><![endif]-->
+        <!--[if mso]></td><td width="270" valign="top"><![endif]-->
 
-        <!-- ============ CARD PREPARATÓRIO E CONVERSAÇÃO · INÍCIO ============ -->
-        <div style="display:inline-block;width:100%;max-width:283px;vertical-align:top;text-align:left;">
+        <!-- CARD 2: PREPARATÓRIO E CONVERSAÇÃO -->
+        <div style="display:inline-block;width:100%;max-width:270px;vertical-align:top;text-align:left;margin-bottom:20px;">
           <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
-          <tr><td style="padding:0 7px 14px 7px;">
-            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#1d2547" style="background:#1d2547;border:1px solid #2f3b6e;border-radius:12px;overflow:hidden;">
+            <tr><td style="padding:0 6px;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#1d2547" style="background:#1d2547;border:1px solid #2f3b6e;border-radius:12px;overflow:hidden;">
+                <tr><td style="padding:24px 20px;">
 
-              <!-- EDITAR (opcional): imagem do card. Proporção sugerida 16:9, exportar com 1080 x 608 px
-              <tr><td>
-                <a href="https://EDITAR-LINK-LANDING-PREPARATORIO" target="_blank">
-                  <img src="https://EDITAR-URL-DA-IMAGEM-PREPARATORIO.jpg" width="100%" style="display:block;border:0;width:100%;height:auto;" alt="Turmas de conversação e preparatório">
-                </a>
-              </td></tr>
-              -->
+                  <!-- Tag -->
+                  <table role="presentation" cellpadding="0" cellspacing="0" border="0">
+                    <tr><td bgcolor="#2670c0" style="background:#2670c0;border-radius:20px;padding:4px 12px;font-family:'Montserrat',Arial,Helvetica,sans-serif;font-weight:800;font-size:10px;line-height:13px;letter-spacing:.8px;color:#ffffff;text-transform:uppercase;">Fluência e Exames</td></tr>
+                  </table>
 
-              <tr><td style="padding:20px 18px 22px 18px;">
+                  <!-- Título -->
+                  <div style="font-family:'Montserrat',Arial,Helvetica,sans-serif;font-weight:800;font-size:18px;line-height:24px;color:#ffffff;padding-top:14px;">Prep & Conversação</div>
+                  <div style="font-family:'Montserrat',Arial,Helvetica,sans-serif;font-weight:400;font-size:13px;line-height:18px;color:#b9c0dd;padding-top:2px;">Turmas em Janeiro</div>
 
-                <!-- EDITAR: etiqueta -->
-                <table role="presentation" cellpadding="0" cellspacing="0" border="0">
-                  <tr><td bgcolor="#2670c0" style="background:#2670c0;border-radius:20px;padding:5px 12px;font-family:'Montserrat',Arial,Helvetica,sans-serif;font-weight:800;font-size:11px;line-height:13px;letter-spacing:.8px;color:#ffffff;text-transform:uppercase;">Preparatório e conversação</td></tr>
-                </table>
+                  <!-- Valor de desconto -->
+                  <div style="font-family:'Montserrat',Arial,Helvetica,sans-serif;font-weight:600;font-size:12px;line-height:15px;color:#ffffff;padding-top:18px;text-transform:uppercase;">Descontos de até</div>
+                  <div style="font-family:'Montserrat',Arial,Helvetica,sans-serif;font-weight:900;font-size:32px;line-height:36px;color:#ffffff;padding-top:2px;">R$ 260</div>
 
-                <!-- EDITAR: nome do curso e período -->
-                <div style="font-family:'Montserrat',Arial,Helvetica,sans-serif;font-weight:800;font-size:17px;line-height:23px;color:#ffffff;padding-top:14px;">Turmas de conversação e preparatório</div>
-                <div style="font-family:'Montserrat',Arial,Helvetica,sans-serif;font-weight:400;font-size:13px;line-height:19px;color:#b9c0dd;padding-top:2px;">Janeiro</div>
+                  <!-- Descrição -->
+                  <div style="font-family:'Montserrat',Arial,Helvetica,sans-serif;font-weight:400;font-size:13px;line-height:20px;color:#b9c0dd;padding-top:12px;min-height:60px;">
+                    Perfeito para destravar a fala ou conquistar sua certificação oficial (DELF/DALF) com excelência.
+                  </div>
 
-                <!-- EDITAR: desconto -->
-                <div style="font-family:'Montserrat',Arial,Helvetica,sans-serif;font-weight:600;font-size:13px;line-height:16px;color:#ffffff;padding-top:16px;">Descontos de até</div>
-                <div style="font-family:'Montserrat',Arial,Helvetica,sans-serif;font-weight:900;font-size:34px;line-height:38px;color:#ffffff;">R$ 260</div>
+                  <!-- Botão -->
+                  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top:22px;">
+                    <tr><td align="center" bgcolor="#2670c0" style="background:#2670c0;border-radius:24px;">
+                      <a href="[EDITAR-LINK-LANDING-PREPARATORIO]" target="_blank" style="display:block;padding:12px 10px;font-family:'Montserrat',Arial,Helvetica,sans-serif;font-weight:800;font-size:13px;line-height:16px;color:#ffffff;text-decoration:none;">Quero Prep & Conversação</a>
+                    </td></tr>
+                  </table>
 
-                <!-- EDITAR: descrição (colar o texto da landing) -->
-                <div style="font-family:'Montserrat',Arial,Helvetica,sans-serif;font-weight:400;font-size:14px;line-height:21px;color:#b9c0dd;padding-top:10px;">
-                  Pratique a fala com confiança ou prepare-se para os exames de proficiência.
-                </div>
-
-                <!-- EDITAR: botão + link da landing -->
-                <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top:20px;">
-                  <tr><td align="center" bgcolor="#2670c0" style="background:#2670c0;border-radius:24px;">
-                    <a href="https://EDITAR-LINK-LANDING-PREPARATORIO" target="_blank" style="display:block;padding:13px 10px;font-family:'Montserrat',Arial,Helvetica,sans-serif;font-weight:800;font-size:14px;line-height:17px;color:#ffffff;text-decoration:none;">Quero meu desconto</a>
-                  </td></tr>
-                </table>
-              </td></tr>
-            </table>
-          </td></tr>
+                </td></tr>
+              </table>
+            </td></tr>
           </table>
         </div>
-        <!-- ============ CARD PREPARATÓRIO E CONVERSAÇÃO · FIM ============ -->
+        <!-- FIM CARD PREP -->
 
         <!--[if mso]></td></tr></table><![endif]-->
+
       </td>
     </tr>
-    <!-- ================= CARDS · FIM ================= -->
+    <!-- ================= FIM DOS CARDS ================= -->
 
 
-    <!-- ================= WHATSAPP · INÍCIO ================= -->
+    <!-- ================= WHATSAPP BLOCK ================= -->
     <tr>
-      <td style="padding:0 24px 0 24px;">
+      <td align="center" style="padding:0 26px 25px 26px;">
         <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#1d2547" style="background:#1d2547;border:1px solid #2f3b6e;border-radius:12px;">
-          <tr><td align="center" style="padding:22px 18px;">
-            <!-- EDITAR: chamada -->
-            <div style="font-family:'Montserrat',Arial,Helvetica,sans-serif;font-weight:800;font-size:16px;line-height:22px;color:#ffffff;">Prefere conversar com a gente?</div>
-            <div style="font-family:'Montserrat',Arial,Helvetica,sans-serif;font-weight:400;font-size:14px;line-height:21px;color:#b9c0dd;padding-top:4px;">Tire suas dúvidas e garanta sua vaga pelo WhatsApp.</div>
-            <!-- EDITAR: número (wa.me/55 + DDD + número) e mensagem pronta (%20 no lugar de espaços) -->
+          <tr><td align="center" style="padding:22px 20px;">
+            <div style="font-family:'Montserrat',Arial,Helvetica,sans-serif;font-weight:800;font-size:16px;line-height:22px;color:#ffffff;">Ficou com alguma dúvida?</div>
+            <div style="font-family:'Montserrat',Arial,Helvetica,sans-serif;font-weight:400;font-size:13px;line-height:20px;color:#b9c0dd;padding-top:4px;max-width:380px;margin:0 auto;">
+              Nossa equipe está pronta para ajudar você a escolher o curso ideal pelo WhatsApp.
+            </div>
             <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="margin-top:16px;">
               <tr><td align="center" bgcolor="#1f9d55" style="background:#1f9d55;border-radius:24px;">
-                <a href="https://wa.me/55EDITARNUMERO?text=Ol%C3%A1!%20Vim%20pelo%20e-mail%20da%20Black%20Novembre%20e%20quero%20saber%20mais." target="_blank" style="display:inline-block;padding:13px 30px;font-family:'Montserrat',Arial,Helvetica,sans-serif;font-weight:800;font-size:14px;line-height:17px;color:#ffffff;text-decoration:none;">Falar no WhatsApp</a>
+                <a href="https://wa.me/55EDITARNUMERO?text=Ol%C3%A1!%20Vim%20pelo%20e-mail%20da%20Black%20Novembre%20e%20quero%20saber%20mais." target="_blank" style="display:inline-block;padding:12px 28px;font-family:'Montserrat',Arial,Helvetica,sans-serif;font-weight:800;font-size:13px;line-height:16px;color:#ffffff;text-decoration:none;">Falar no WhatsApp</a>
               </td></tr>
             </table>
           </td></tr>
         </table>
       </td>
     </tr>
-    <!-- ================= WHATSAPP · FIM ================= -->
+    <!-- ================= WHATSAPP FIM ================= -->
 
 
-    <!-- ================= RODAPÉ · INÍCIO ================= -->
+    <!-- ================= RODAPÉ ================= -->
     <tr>
-      <td align="center" style="padding:26px 24px 30px 24px;">
-        <!-- EDITAR: validade -->
-        <div style="font-family:'Montserrat',Arial,Helvetica,sans-serif;font-weight:400;font-size:12px;line-height:18px;color:#8e96b8;">
-          Promoção válida durante o mês de novembro. Condições sujeitas a regulamento.<br>
-          Alliance Française Rio de Janeiro
+      <td align="center" style="padding:0 30px 35px 30px;">
+        <div style="font-family:'Montserrat',Arial,Helvetica,sans-serif;font-weight:400;font-size:11px;line-height:17px;color:#8e96b8;max-width:500px;margin:0 auto;">
+          *O valor-base considerado nesta promoção corresponde à nova tabela de preços de 2027, aplicada ao curso de verão por contemplar os meses de dezembro de 2026 e janeiro de 2027. Condições de parcelamento no boleto com pagamento até 30/11.<br><br>
+          © 2026 Alliance Française Rio de Janeiro. Todos os direitos reservados.
         </div>
       </td>
     </tr>
-    <!-- ================= RODAPÉ · FIM ================= -->
+    <!-- ================= RODAPÉ FIM ================= -->
 
   </table>
 </td></tr>
